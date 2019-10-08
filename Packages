@@ -1,1 +1,3 @@
 docker login docker.pkg.github.com --username rhimaris
+docker tag IMAGE_ID docker.pkg.github.com/rhimaris/humanengine/IMAGE_NAME:VERSION
+docker push docker.pkg.github.com/rhimaris/humanengine/IMAGE_NAME:VERSION
